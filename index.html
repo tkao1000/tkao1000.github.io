@@ -1,114 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<!-- links html file to css file -->
-		<link rel="stylesheet" href="stylesheets/index.css">
-		<link rel="shortcut icon" href="SeniorPortrait.ico" type="SeniorPortrait/ico" /
-		<meta charset="utf-8">
-		<title>Thomas Kao</title>
-	</head>
+<html>
 
-	<div id="header">
-		<h1>Thomas Kao</h1>
-		<u1 id ="navigation">
-			<li><a id="link-home" href="#home">Home</a></li>
-			<li><a id="link-projects" href="#projects">Projects</a></li>
-			<li><a id="link-about" href="#about">About</a></li>
-		</u1>
-	</div>
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
 
-	<!-- Home -->
-	<!--<div id="home" class ="content">
-		<h2> Home </h2>
-	</div> -->
-	<div id="front" class="picture">
-		<img class="Senior" src="imageedit_2_2885032314.gif" alt="SeniorPortrait" style="width:250px;height:250px;">
-	</div>
-	<div id="morefront" class="links1">
-		<!-- <a class="btn-resume" href="RESUME.pdf">Resume</a> -->
-		<a class="btn-email" href="mailto:thomas.l.kao@gmail.com">Email</a>
-	</div>
-	<div id="moremorefront" class="links2">
-		<a class ="btn-github" href="https://github.com/tkao1000"><img src="GitHub_Logo.png" width="50" height="25"></a>
-		<a class ="btn-linkedin" href="https://www.linkedin.com/pub/thomas-kao/a0/3ab/400"><img src="linkedin-logo.png" width="25" height="25"></a>
-	</div>
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class = "pull-left">
+          <li><a href="#">Thomas Kao</a></li>
+          <li><a href="#">About Me</a></li>
+          
+        </ul>
+        <ul class = "pull-right">
+          <li><a href="#">Resume</a></li>
+          <li><a href="#"><img src="GitHub_Logo.png" width="25" height="25"><img src="linkedin-logo.png" width="25" height="25"></a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+    </div>
 
-	<!-- Projects -->
-	<div id="projects" class ="panel">
-		<div class = "content">
-			<h2>Projects</h2> 
-			<p>Reliable Transport Protocol: Implemented a transport protocol with properties similar to TCP using UDP. This was programmed in C.</p>
-			<p>Maze Generator: Implemented a program that generates a maze and then solves it. The program was written in C++.</p>
-		</div>
-	</div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>About Me.</h1>
+        <p>I'm a junior majoring in electrical engineering and minoring in computer science at the University of Illinois at Urbana-Champaign.</p>
+      </div>
+    </div> 
 
-	<!-- About -->
-	<div id ="about" class="panel">
-		<div class="content">
-			<h2>About Me</h2>
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>Neighborhood Guides</h2>
+            <p>Not sure where to stay? We've created neighborhood guides for cities all around the world</p>
+            <div class = "row">
+                <div class = "col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/0sX3jq">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/an2HXY">
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                     <div class="thumbnail">
+                        <img src="http://goo.gl/Av1pac">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/vw43v1">
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/0Kd7UO">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<p> Hai! </p>
-			<p>I'm a junior majoring in electrical engineering and minoring in computer science at the University of Illinois at Urbana-Champaign. </p>
-
-			<p> In addition to taking classes, I am an active member in both WCS and ACM. I really enjoy attending the events and helping out with various projects. </p>
-			
-			<p> In previous summers, I have worked at SLAC National Laboratory, in the Shim group at the University of Illinois at Urbana-Champaign, and in the XYZ lab at Columbia University. My projects include writing software for x-ray imaging research, determining different methods for graphene growth and transfer, and fabrication and characterization of 2D heterostructures.</p>
-
-			<p>My current interests are centered around systems and networking and data science. I am looking for internship positions that will allow me to pursue these interests, as well as explore the software industry as a whole.</p>
-
-			<p> Feel free to contact me if you have any questions! </p>
-		</div>
-	</div>
-
-	<!--
-	<body id="top">
-		<section class="Sidebar">
-			<h2>Thomas Kao</h2>
-			<a class="btn-projects" href="/Users/thomaskao/My%20Website/Projects.html">Projects</a>
-			<a class="btn-resume" href="RESUME.pdf">Resume</a>
-			<a class="btn-email" href="mailto:thomas.l.kao@gmail.com">
-			Email</a>
-			<a class ="btn-github" href="https://github.com/tkao1000"><img src="GitHub_Logo.png" width="50" height="25"></a>
-			<a class ="btn-linkedin" href="https://www.linkedin.com/pub/thomas-kao/a0/3ab/400"><img src="linkedin-logo.png" width="25" height="25"></a>
-		</section>
-		<section class="About-Me">
-			<h2 >About Me</h2>
-			<p>I am a third year student in electrical engineering at the University of Illinois at Urbana-Champaign. My current interests are centered around systems and data science.</p>
-
-			<p> I have accumulated significant programming experience through classes, such as Data Structures and Computer Networks, as well as various projects.</p>
-			
-			<p> In previous summers, I have worked at SLAC National Laboratory, in the Shim group at the University of Illinois at Urbana-Champaign, and in the XYZ lab at Columbia University. My projects include writing software for x-ray imaging research, determining different methods for graphene growth and transfer, and fabrication and characterization of 2D heterostructures.</p>
-
-		</section>
-	-->
-	<!--
-		<section class="Experience">
-			<h2 >Experience</h2>
-			<!-- ordered list -->
-	<!--
-			<ol>
-				<li> Work </li>
-				<!-- unordered list -->
-	<!--
-					<ul>
-						<li> Research Intern in Columbia University MRSEC REU Program
-  						<li> Research Assistant in Shim Group at the University of Illinois at Urbana-Champaign </li>
-  						<li> Research Assistant at SLAC National Laboratory </li>
-					</ul>
-				<li> Projects </li>
-				<li> Miscellaneous </li>
-					<ul>
-						<li>Cellist</li>
-						<li>Multilingual(English, Chinese, Spanish)</li>
-					</ul>
-			</ol>
-
-		</section>
-		
-		<footer class="foot">
-			<small>Thanks for Visiting </small>
-			<a class="btn-top" href="#top">Back to top</a>
-		</footer>
-	</body>
-	-->
+    <div class="learn-more">
+    <div class="container">
+    <div class = "row">
+        <div class = "col-md-4">
+      <h3>Travel</h3>
+      <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+      <p><a href="#">See how to travel on Airbnb</a></p>
+        </div>
+      <div class = "col-md-4">
+      <h3>Host</h3>
+      <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+      <p><a href="#">Learn more about hosting</a></p>
+      </div>
+      <div class = "col-md-4">
+      <h3>Trust and Safety</h3>
+      <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+      <p><a href="#">Learn about trust at Airbnb</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  </body>
 </html>
