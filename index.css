@@ -1,0 +1,100 @@
+.first h1{
+  color: #5a5a5a;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+
+.last h1{
+  color: #5a5a5a;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+a::before{
+	color: #fff;
+	content: attr(data-hover);
+	position: absolute;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+a:hover::before,
+a:focus::before {
+	transform: scale(0.9);
+	opacity: 0;
+}
+
+.about {
+	height: 240px;
+	width: 800px;
+	border-radius: 50%;
+	font-size: 50px;
+	line-height: 200px;
+	text-align:center;
+	position: absolute;
+	top: 3%;
+	left:40%;
+	background-image: url(panda.jpg);
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.about a{
+	color: #a9a9a9;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.food {
+	height: 240px;
+	width: 800px;
+	border-radius: 50%;
+	font-size: 50px;
+	line-height: 200px;
+	text-align:center;
+	position: absolute;
+	top: 36%;
+	left:40%;
+	background-image: url(oranges.jpg);
+	background-size: 100% auto;
+}
+
+.food a{
+	color: #FF8C00;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.music{
+	height: 240px;
+	width: 800px;
+	border-radius: 50%;
+	font-size: 50px;
+	color: #3d9970;
+	line-height: 200px;
+	text-align:center;
+	background: #000;
+	position: absolute;
+	top: 70%;
+	left:40%;
+	background-image: url(music.jpg);
+	background-size: 50% auto;
+}
+
+.music a{
+	font-family: Arial;
+	color: #5a5a5a;
+	text-decoration: none;
+}
