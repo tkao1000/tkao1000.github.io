@@ -38,7 +38,6 @@ a:focus::before {
 .about {
 	height: 240px;
 	width: 800px;
-	border-radius: 50%;
 	font-size: 50px;
 	line-height: 200px;
 	text-align:center;
@@ -60,7 +59,6 @@ a:focus::before {
 .food {
 	height: 240px;
 	width: 800px;
-	border-radius: 50%;
 	font-size: 50px;
 	line-height: 200px;
 	text-align:center;
@@ -80,7 +78,6 @@ a:focus::before {
 .music{
 	height: 240px;
 	width: 800px;
-	border-radius: 50%;
 	font-size: 50px;
 	color: #3d9970;
 	line-height: 200px;
