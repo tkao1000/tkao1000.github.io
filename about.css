@@ -1,0 +1,79 @@
+.picture{
+  position:absolute;
+  height:100px;
+  width:100px;
+  top: 37%;
+  left: 38%;
+}
+
+.name h1{
+  color: #5a5a5a;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+}
+
+.description1 p{
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  position: absolute;
+  top: 15%;
+  left: 33%;
+  right: 33%;
+}
+
+.description2 p{
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  right: 33%;
+}
+
+.linkedin {
+	position:absolute;
+	top: 80%;
+	left: 45%;
+}
+
+.github {
+	position:absolute;
+	top: 82%;
+	left: 49%;
+}
+
+.email p{
+	color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  position: absolute;
+  top: 89%;
+  left: 33%;
+  right: 33%;
+}
+
+.resume a{
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 14px 10px;
+  position: absolute;
+  top: 87%;
+  left: 46%;
+  text-decoration:none;
+}
